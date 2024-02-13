@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog - Frenchcoder</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"/>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap');
+body{
+  margin: 10px 80px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+nav {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+nav h1{
+  font-family: 'Crimson Text', serif;
+  font-size: 30px;
+}
+nav .onglets{
+  margin-top: 35px;
+}
+nav .onglets a{
+  text-decoration: none;
+  color:#7f7e7e;
+  margin-right: 10px;
+}
+
+.articles{
+  margin-top: 30px;
+}
+.articles .article{
+  display: flex;
+  flex-wrap:wrap;
+  margin-bottom: 30px;
+}
+.articles .article .left img{
+  height: 300px;
+  width: 500px;
+}
+.articles .article .right {
+  margin-left: 40px;
+  max-width: 50%;
+}
+.articles .article .right p.date{
+  color: #7f7e7e;
+}
+.articles .article .right p.description{
+  color: #2d2d2d;
+}
+
+footer {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  color: #494949;
+}
+footer h2{
+  font-size: 20px;
+  font-family: 'Crimson Text', serif;
+  margin-top: 20px;
+}
+footer .social-media{
+  display:flex;
+}
+footer .social-media p{
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 640px){
+  body{
+    margin: 10px 20px;
+  }
+  nav .onglets{
+    margin-top: -10px;
+  }
+  .articles .article .left img{
+    height: 100%;
+    width:100%;
+  }
+  .articles .article .right{
+    margin: 0px;
+    max-width: 100%;
+  }
+  footer .social-media{
+    margin-top: -20px;
+  }
+}
+</style>
+<body>
+  <nav>
+    <h1>Le métavers ou la réalité virtuelle </h1>
+   
+  </nav>
+  
+  <section class="articles">
+    
+     <div class="article">
+      <div class="left">
+        <img src="assets/img/mett.webp" alt="">
+      </div>
+      <div class="right">
+        <h1>Définition</h1>
+        <p class="description">
+          A l'origine, « metaverse » est un mot-valise, composé des termes anglais meta et universe, qui a été francisé ensuite en « métavers », méta et univers. Le métavers est un méta-univers, ou univers qui va au-delà de celui que nous connaissons. Il s'agit d'un monde virtuel structuré et ouvert4.
+
+Le rapport interministériel de la mission sur le développement des métavers5 publié en octobre 2022 définit ce dernier comme « un service en ligne donnant accès à des simulations d’espaces 3D temps réel, partagées et persistantes, dans lesquelles on peut vivre ensemble des expériences immersives ».
+
+Pour le journaliste Guillaume Barou, le métavers serait « la superstructure de ces lieux virtuels [différents jeux vidéos, sites web et applis], connectés entre eux par le biais de standards informatiques encore à inventer, où l’on conserverait une ou plusieurs identités virtuelles et que l’on visiterait à l’aide de dispositifs immersifs (lunettes 3D et gants haptiques) encore balbutiants »6.
+
+Matthias Hauser, quant à lui, définit trois critères pour décrire le métavers :
+
+celui-ci doit imiter le monde réel sans en être une exacte copie, ce qui signifie qu'il aura un aspect fictif tout en utilisant les codes de la réalité ;
+il doit être facilement accessible grâce à des objets numériques tels que des smartphones ou des ordinateurs ;
+il doit exister et évoluer de manière continue, même quand l'utilisateur se déconnecte. Le métavers peut créer un phénomène de FOMO (Fear of Missing Out, soit la « crainte d'être passé à côté de quelque chose »)7.
+La Blockchain, les cryptomonnaies,les NFTs et les organisations autonomes décentralisées sont des technologies qui sont étroitement liées au concept de métavers. Elles contribuent à la disparition de la dualité entre le monde numérique et le monde physique, l'une des grandes promesses du métavers. L’enseignant-chercheur en système d’information Charles Perez insiste sur ce point : « Il n’y aura plus l’homme et la technologie, mais l’homme avec et même dans l’univers technologique virtuel. L’immersion sera forte au point de ne plus mentionner les différences entre les deux. L’hybridation sera acquise et deviendra notre nouvelle unité de réalité. »8.
+            </p>
+      </div>
+    </div> 
+    <div class="article">
+      <div class="left">
+        <img src="https://www.precisement.org/blog/IMG/jpg/2021-12-28_vr_microsoft_teams-with-mesh.jpg" alt="">
+      </div>
+      <div class="right">
+        <h1>Le ou les métavers ?</h1>
+        <p class="description">Une discussion avec Fabrice Frossard, consultant en stratégie de contenu et en webmarketing [1] sur Twitter [2] m’a amené à mieux comprendre l’enjeu du développement de la réalité virtuelle (VR) par Facebook (pardon Meta) et le "plan" de Mark Zuckerberg (et d’autres comme Microsoft) de nous l’imposer non seulement dans les loisirs mais aussi *au travail*, comme avec Mesh, conçu pour fonctionner avec des avatars sans jambes dans la plateforme collaborative Teams [3].
+
+            Fabrice Frossard : « L’idée est de créer un univers virtuel à la fois grand public et professionnel. A terme, l’objectif est celui [de vous doter] d’un faux jumeau numérique. Mais cette annonce a déclenché une vague de fond sur le "métavers" et lancé une course de fond sur le sujet. »Le dirigeant de Meta veut faire passer l’Internet que nous connaissons au métavers. Il s’agit pour lui de faire mieux que les réseaux/médias sociaux : créer une présence et une collaboration/interaction encore plus forte, à base de réalité virtuelle (VR) et augmentée (AR) et d’IA [4]. De nombreux commentateurs font un parallèle avec la matrice du film Matrix. Pour une (ou plutôt des) définitions plus précises, voyez l’excellente tribune d’Oxana Gouliaéva, une autre spécialiste du marketing en ligne [5].
+
+            Les journalistes économiques écrivent que Nvidia, Tencent, Epic Games (l’éditeur du jeu vidéo Fortnite), Microsoft et Google suivent et se battront pour définir ce qui est envisagé par l’industrie informatique comme le standard de l’Internet du futur [6]. Microsoft collabore même avec Méta pour améliorer leurs systèmes de réalité virtuelle professionnelle [7].
+            
+            Un des buts de M. Zuckerberg pourrait ainsi être de tenter de faire de son métavers le nouveau navigateur Internet, enlevant ainsi à Google (Chrome + moteur de recherche) et Apple (Safari) leur énorme avantage [8]. Comme le dit Oxana Gouliaéva : « Quand l’acteur avec la plus grande base d’utilisateurs [9] promet l’interopérabilité, peut-on le croire ? »
+            
+            Les buts de M. Zuckerberg sont on ne peut plus clairs une fois qu’on apprend que Meta facturera des frais pouvant aller jusqu’à 47,5% du prix de vente des marchandises virtuelles commercialisées sur son metaverse [10].
+            
+            </p>
+      </div>
+    </div> 
+    
+    
+    <div class="article">
+      <div class="left">
+        <img src="https://photos.tf1info.fr/images/1280/720/capture-metaverse-74d68f-0@1x.jpeg" alt="">
+      </div>
+      <div class="right">
+        <h1>IPourquoi le métavers ? Le but des GAFAM</h1>
+        <p class="description"> Fabrice Frossard explique très clairement le pourquoi du métavers :
+
+            « C’est aussi une manière habile de créer de la croissance sur un secteur [l’industrie informatique] qui ralentit. Toute l’infrastructure [ordinateurs, smartphones, microprocesseurs et cartes graphiques, réseaux ...] devra être actualisée pour que cela fonctionne [11]. Donc, l’informatique américaine (semi-conducteurs, serveurs etc.) est à fond sur le sujet. La pioche et les pelles ...
+            
+            « En dernier ressort, c’est aussi une mise en avant de la blockchain via les NFT et autres pour installer la crypto de Meta.
+            
+            « Bref, une stratégie assez fine pour relancer la machine et tenter pour Meta de faire oublier ses frasques [Facebook Files / Papers, etc.] [12]
+            
+            « C’est de l’économie appliquée. »
+            
+            Un exemple de rentabilité attendue : « Ma plus grande crainte est que le métavers permette le ciblage publicitaire basé sur nos réactions biologiques à des stimuli », commente l’avocat Brittan Heller auprès du Financial Times (qui a analysé les brevets déposés par Facebook). « La plupart des gens ne savent pas à quel point cela a de la valeur. Et aujourd’hui, aucune loi n’interdit de telles pratiques. » [13]</p>
+      </div>
+    </div>
+    
+    <div class="article">
+      <div class="left">
+        <img src="https://formationcontinue.u-paris.fr/wp-content/uploads/sites/6/2022/10/shutterstock_1036798225-1920x1080-1.jpg" alt="">
+      </div>
+      <div class="right">
+        <h1>Quelques doutes sur le métavers. Ou : ce n’est pas gagné</h1>
+        <p class="description">Arthur de Grave, auteur du pamphlet Startup Nation Overdose Bullshit et peu partisan de la techno-hype, est plus terre à terre. Il rappelle que « les technologies qui permettraient de faire du métavers un semblant de réalité sont tout sauf matures [Facebook eux-mêmes ont annoncé que la réalisation complète du métavers prendrait 10 ans ou plus]. La dernière tentative de faire des casques de réalité virtuelle des produits grand-publics – dont Oculus, racheté par Facebook en 2014, était l’un des principaux porte-voix – s’est soldée par un semi-échec. Depuis la mort en catimini des Google Glass et l’escroquerie Magic Leap, les avancées en matière de réalité augmentée semblent des plus timides. Quant aux bracelets qui scrutent les ondes cérébrales ou les combinaisons à retour haptiques, ils relèvent encore largement de la science-fiction. [...]
+
+            « Les techno-utopistes de service nous vendent le prochain stade de développement de l’Internet alors que le monde traverse une pénurie de semi-conducteurs sans précédent et que la plupart des fabricants de hardware informatique tourneront vraisemblablement au ralenti jusqu’en 2023. [Sans parler de] la crise écologique globale [qui] pourrait [14] bien ramener Zuck et son pays imaginaire sur terre. »
+            
+            Par ailleurs, comme dans l’Internet d’aujourd’hui, relève Maxime de Blasi, nous aurons droit aux cyberharcèlement [15] et cyberattaques [16].
+            
+            Il y a aussi le problème des "tuyaux". Comme l’expliquent Les Echos, « Meta a appelé l’industrie mobile à construire des réseaux bien plus puissants. Mais les opérateurs télécom, eux, ne sont pas pressés. Car ils redoutent de voir la situation actuelle empirer. Depuis la pandémie, le poids des géants du streaming comme Netflix et YouTube sur les réseaux télécoms n’a cessé d’augmenter. A certains moments de la journée, ils monopolisent jusqu’à 70 % de la bande passante, alors même qu’ils ne contribuent pas au financement des infrastructures fixes et mobiles. Orange, Telefónica, Deutsche Telekom et Vodafone demandent aux régulateurs européens que le « fardeau financier » soit mieux partagé entre les télécoms et les Gafam. Ce qui nécessiterait une révision de la neutralité du Net [17].
+            
+            Oxana Gouliaéva voit d’autres écueils pour le métavers [18] :
+            « Ce n’est pas la sophistication des univers qui garantit l’engagement, mais les mécanismes du jeu. Quand les gens se connectent à l’univers de Minecraft, accessible avec des ordinateurs des plus basiques, la raison est simple : ils y vont pour jouer. Ici la créativité n’est pas une option, mais un must-have. C’est à vous de construire votre univers et de vous poser vos défis. Le jeu n’existe tout simplement pas si vous ne créez rien vous-même, à l’opposé du métavers promis par Zuckerberg. Aujourd’hui, Facebook semble travailler sur des outils de création, mais la première préoccupation reste de faire payer des clients passifs pour l’utilisation de son propre univers. »
+            
+            Pour aller plus loi sur les limites de ce qui n’est aujourd’hui qu’un concept, lire Alain Lefebvre (consultant) : Parlons vrai sur le Metaverse : partie 2 (lecture recommandée par Fred Cavazza).
+            
+            Elon Musk, le milliardaire fondateur de Tesla, estime que le masque de VR sera bien moins pratique qu’une future version de son implant cérébral Neuralink.
+            
+            C’est dans 10 ans mais Matthieu Courtecuisse, le patron de SIA Partners a raison de poser la question : dans le métavers/l’immersion, nos avatars auront-ils des frontières et des systèmes juridiques à respecter ? Quel rôle doit jouer l’Etat ?
+            
+            Selon lui, « cinq instruments de souveraineté doivent être repensés.
+            <ul>
+           <li> l’identité numérique des avatars. Quelle en sera la gouvernance ? Est-ce que nos avatars seront dotés d’une carte d’identité, sans possibilité d’anonymat ? Souhaitons-nous des frontières pour respecter certaines lois du monde physique ? Y aura-t-il une forme de régulation sur la ressemblance ? Allons-nous suivre les comportements addictifs ?</li>
+           <li>la monnaie et les NFT . Sera-t-il possible de faire de la création monétaire ?</li>
+           <li>la protection de nos données, désormais en 3D, à commencer par notre corps. La multiplication des capteurs est au coeur de l’expérience immersive et captera nos émotions. Comme le dit Julien Cloarec, maître de conférences en science des données à l’IAE Lyon School of Management, « on est sur des données liées au corps [...] l’enjeu c’est d’attaquer les consommateurs à travers le corps ("embodiment", en français incarnation) » [19]. On est là clairement dans le "capitalisme de surveillance"</li>
+           <li> la définition de la propriété intellectuelle ou de territorialité juridictionnelle, pour résoudre les activités illégales, les litiges, les agressions et les conflits. Est-elle rattachée aux nationalités des individus incarnés par les avatars ? Ou est-ce de facto le 51e Etat américain ?</li>
+           <li>dernier enjeu moins régalien mais tout aussi décisif : la nouvelle lutte autour des codes culturels. »</li>
+        </ul>
+        </p>
+      </div>
+    </div><div class="article">
+        <div class="left">
+          <img src="https://www.realite-virtuelle.com/wp-content/uploads/2022/05/langage-de-programmation-metaverse.jpg" alt="">
+        </div>
+        <div class="right">
+          <h1>MÉTAVERSE : DE QUELS LANGAGES DE PROGRAMMATION A-T-ON BESOIN ?</h1>
+          <p class="description">Pour développer la Métaverse, plusieurs technologies de programmation peuvent être employées :
+             <ul>
+           <li> C# et C++ servent au développement d’expériences de réalité virtuelle, surtout sur des moteurs de jeux comme Unity ;</li>
+           <li> JavaScript permet le développement d’application WebVR et WebAR ;</li>
+           <li> Python favorise la création d’interfaces de réalités virtuelles. Sa simplicité le place en pole position des langages à utiliser dans la Métaverse ;</li>
+           <li> En raison de leur sûreté, Solidity et Rust seront sollicités pour la mise en œuvre de contrats intelligents, dans la Métaverse, mais aussi dans des blockchains comme Solana ou Ethereum ;</li>
+           <li> Swift est un langage de programmation open source, qui s’immisce de plus en plus dans l’environnement de la Métaverse. Le maîtriser est un plus non négligeable.</li>
+            La connaissance de tous ces langages est suffisante pour faire de vous un développeur full-stack.
+            
+            En raison des besoins technologiques grandissants des sociétés, cette fonction est de plus en plus convoitée par les recruteurs.
+             </ul>
+              </p>
+        </div>
+      </div> <div class="article">
+        <div class="left">
+          <img src="assets/img/yout.jpg" alt="">
+        </div>
+        <div class="right">
+          <h1>Les resources</h1>
+          <p class="description">Voici les resources que je les utilisé pour ma veille technologique :
+             <ul>
+              <li>Precisement.org <a href="https://www.precisement.org/blog/Le-metavers-ou-la-realite-virtuelle-12h-par-jour.html" target="_blank">Voir l'article</a></li>
+              <li>Ipi informatique et numerique <a href="https://www.ipi-ecoles.com/metaverse-langage-programmation/" target="_blank">Voir l'article</a></li>
+              <li>wikipedia <a href="https://fr.wikipedia.org/wiki/M%C3%A9tavers#:~:text=10.3%20Liens%20externes-,D%C3%A9finition,de%20celui%20que%20nous%20connaissons." target="_blank">voir l'article</a></li>
+             <li>swello <a href="https://swello.com/fr/blog/metavers/#:~:text=L'avantage%20principale%20du%20m%C3%A9tavers,de%20texte%20ou%20de%20vid%C3%A9o." target="_blank">Voir l'article</a></li>
+             <li>YouTube <a href="https://www.youtube.com/watch?v=2fMtkkAfuBc" target="_blank">Voir la video</a></li>
+             </ul>
+              </p>
+        </div>
+      </div> <div class="article">
+      
+        <center>
+          <h1></h1>
+        </center>
+     <ul>
+      <li></li>
+     </ul>
+     <br><br><br><br><br><br><br>
+ 
+</body>
+</html>
